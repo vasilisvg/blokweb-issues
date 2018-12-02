@@ -28,4 +28,4 @@ Labels moet je koppelen aan inputs. Je krijgt dan helemaal gratis allemaal lagen
 <label for="naam">naam</label>
 <input id="naam">
 ````
-<details>
+</details>
