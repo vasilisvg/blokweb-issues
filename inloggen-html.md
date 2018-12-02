@@ -11,7 +11,7 @@ Deze issues zien we vaak. Wellicht heb jij ze ook?
 ````
 
 ### Goed
-````css
+````html
 <label>
   Naam
   <input>
@@ -19,7 +19,7 @@ Deze issues zien we vaak. Wellicht heb jij ze ook?
 ````
 
 ### Ook goed
-````css
+````html
 <label for="naam">naam</label>
 <input id="naam">
 ````
