@@ -4,7 +4,7 @@ Deze issues zien we vaak. Wellicht heb jij ze ook?
 
 ## Labels zitten niet gekoppeld aan inputs
 
-### Wrong
+### Niet goed
 ````
 <label>naam</label>
 <input id="naam">
