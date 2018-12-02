@@ -7,7 +7,7 @@ Deze issues zien we vaak. Wellicht heb jij ze ook?
 Labels moet je koppelen aan inputs. Je krijgt dan helemaal gratis allemaal lagen van UX er bij. En bovendien kunnen mensen met een screenreader je form nu ook invullen!
 
 <details>
-  <summary>Zie wat voorbeelden></summary>
+  <summary>Zie wat voorbeelden</summary>
 
 ### Niet goed
 ````
