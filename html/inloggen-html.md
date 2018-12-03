@@ -32,9 +32,11 @@ Labels moet je koppelen aan inputs. Je krijgt dan helemaal gratis allemaal lagen
 ````
 </details>
 
-## Headings in een formulier
+## Hoe doe je headings in een formulier
 
 In een `form` gebruik je geen sections met heading zoals `h2` en `h3`, maar `<fieldset>` met als titel een `<legend>`. Dit geeft je extra mogelijkheden tot visuele form-validatie, en ook dit is weer prettig voor mensen die een screen reader gebruiken.
+
+*Overigens kan je fieldsets ook prima nesten. Een fieldset in een fieldset kan dus, mocht je het nodig hebben.*
 
 <details>
   <summary>Zie wat voorbeelden</summary>
