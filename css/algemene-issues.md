@@ -92,3 +92,8 @@ article {
 }
 ````
 </details>
+
+## Gebruik flexbox of CSS Grid voor layout
+
+Flexbox en grid zijn bedacht om alle mogelijke layout mee te kunnen maken. Ze zijn veel krachtiger dan oude de *hacks* die we vroeger moesten gebruiken,  zoals `float` en `display: inline-block`. Gebruik nooit hacks. Gebruik flexbox en grid.
+
