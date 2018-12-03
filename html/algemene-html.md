@@ -2,6 +2,10 @@
 
 Dit zijn dingen die we vaker tegenkomen. Vaak kleine dingetjes, die er toch toe doen.
 
+## Hou het simpel
+
+De belangrijkste tip. Hou het simpel. Als je HTML heel ingewikkeld wordt, probeer het dan nog eens met minder HTML.
+
 ## Language attribuut
 
 Elk element kan een `lang` attribuut krijgen. Hierdoor weten zoekmachnies en screen readers in wat voor taal het element is geschreven. Als je het `lang` attribuut op het `<html>` element zet dan geeft dat aan dat het hele document in een bepaalde taal staat. Zorg er voor dat dat klopt!
