@@ -80,3 +80,41 @@ Soms zie ik een heading van een section net vóór de section staan. De heading 
 ## Er mag maar één `h1` op een pagina staan
 
 Over het algemeen is de `h1` de titel van de pagina. Dus op de overzichtspagina zou dat iets kunnen zijn als `<h1>Allemaal hele mooie dezelfde maar toch andere verhalen</h1>`. 
+
+## Elke section heeft een heading
+
+Een section is een thematische groepering van dingen. Zo'n groepering heeft altijd een titel. Bijvoorbeeld *Meest gelezen verhalen*, of *Resultaten van filteren en sorteren*. Soms komt het voor dat je zo'n titel eigenlijk niet visueel nodig hebt. Zet hem in dat geval toch in de HTML, maar verberg hem met CSS.
+
+Dit geldt ook voor een article. Die moet ook altijd een heading.
+
+<details>
+  <summary>Zie wat voorbeelden</summary>
+
+### Goed
+````html
+<section>
+	<h2>De nieuwste verhalen</h2>
+	<article>
+		<h3>Moe</h3>
+		…
+	</article>
+	<article>
+		<h3>Wakker</h3>
+		…
+	</article>
+</section>
+````
+
+### Niet goed
+````
+<section>
+	<article>
+		<h2>Moe</h2>
+		…
+	</article>
+	<article>
+		<h2>Wakker</h2>
+		…
+	</article>
+</section>
+````
