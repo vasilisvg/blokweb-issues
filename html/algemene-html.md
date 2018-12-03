@@ -48,3 +48,39 @@ h2 {
 <h2>ALLE 99 VERHALEN</h2>
 ````
 </details>
+
+## Gebruik echte content
+
+Natuurlijk kopieer je een `article` op de overzichtspagina als die af is. Dan heb je er meteen een heleboel. Tip: pas de content meteen aan. Zet in elke `article` een andere titel, een ander plaatje. Zorg ook voor lastige content. Sommige koppen zijn lang, ander zijn kort.
+
+<details>
+  <summary>Zie wat voorbeelden</summary>
+
+### Goed
+````html
+<article>
+	<h2>Moe</h2>
+	<img src="moe.png" alt="Prachtig plaatje van iemand die moe is">
+</article>
+<article>
+	<h2>Toch echt wel enigszins aan de ietwat omslachtige kant</h2>
+	<img src="moe.png" alt="Mooi, maar nodeloos complex plaatje">
+</article>
+````
+
+### Nuttloos
+````
+<article>
+	<h2>Moe</h2>
+	<img src="moe.png" alt="">
+</article>
+<article>
+	<h2>Moe</h2>
+	<img src="moe.png" alt="">
+</article>
+<article>
+	<h2>Moe</h2>
+	<img src="moe.png" alt="">
+</article>
+````
+</details>
