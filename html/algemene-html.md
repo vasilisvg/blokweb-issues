@@ -122,3 +122,7 @@ Zorg er voor dat je code netjes gestructureerd is. Zorg er voor dat de inspringi
 				</article>
 ````
 </details>
+
+## Centreren doe je met CSS
+
+Er bestaat een `<center>` tag; gebruik die maar niet. Het is veel handiger om daar flexbox of CSS Grid voor te gebruiken.
