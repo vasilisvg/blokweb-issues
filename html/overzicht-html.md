@@ -52,3 +52,27 @@ Als er geen alt-attribuut in staat dan wordt de `src` van het plaatje voorgeleze
 <img src="naam-van-plaatje-ghjhjlfhulisdfl-1234.png">
 <!-- Nu wordt de src voorgelezen. Probeer maar. -->
 ````
+
+## Een heading van een section staat er in, niet er boven
+
+Soms zie ik een heading van een section net vóór de section staan. De heading hoort er in te staan.
+
+<details>
+  <summary>Zie wat voorbeelden</summary>
+
+### Goed
+````html
+<section>
+	<h2>De nieuwste verhalen</h2>
+	…
+</section>
+````
+
+### Dus niet
+````
+<h2>De nieuwste verhalen</h2>
+<section>
+	…
+</section>
+````
+</details>
