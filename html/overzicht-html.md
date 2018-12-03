@@ -52,6 +52,7 @@ Als er geen alt-attribuut in staat dan wordt de `src` van het plaatje voorgeleze
 <img src="naam-van-plaatje-ghjhjlfhulisdfl-1234.png">
 <!-- Nu wordt de src voorgelezen. Probeer maar. -->
 ````
+</details>
 
 ## Een heading van een section staat er in, niet er boven
 
@@ -118,3 +119,4 @@ Dit geldt ook voor een article. Die moet ook altijd een heading.
 	</article>
 </section>
 ````
+</details>
