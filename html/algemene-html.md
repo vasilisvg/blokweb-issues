@@ -92,7 +92,7 @@ Zorg er voor dat je code netjes gestructureerd is. Zorg er voor dat de inspringi
 <details>
   <summary>Voorbeelden</summary>
 
-### Goed
+### Lekker overzichtelijk
 ````html
 <article>
 	<h2>Moe</h2>
@@ -106,7 +106,7 @@ Zorg er voor dat je code netjes gestructureerd is. Zorg er voor dat de inspringi
 </article>
 ````
 
-### Onduidelijk
+### Huh wat?
 ````
 	<article>
 <h2>Moe</h2>
