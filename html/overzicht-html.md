@@ -76,3 +76,7 @@ Soms zie ik een heading van een section net vóór de section staan. De heading 
 </section>
 ````
 </details>
+
+## Er mag maar één `h1` op een pagina staan
+
+Over het algemeen is de `h1` de titel van de pagina. Dus op de overzichtspagina zou dat iets kunnen zijn als `<h1>Allemaal hele mooie dezelfde maar toch andere verhalen</h1>`. 
