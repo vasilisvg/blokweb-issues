@@ -28,6 +28,7 @@ p:first-of-type {
 ````
 
 ### Niet goed
+
 ````
 body {
 	background: papayawhip;
@@ -43,5 +44,51 @@ li {
 	color: black;
 }
 /* Dit wordt een lange CSS op deze manier. En stel dat je toch Times New Roman wil gebruiken, dan moet je dat op veel plekken aanpassen … */
+````
+</details>
+
+
+## Gebruik geen `px`
+
+We maken gebruik van flexibele units zoals percentages, `em`, `rem`, `vw`, `vh`, `vmin` en `vmax`. Je zou eventueel `px` kunnen gebruiken voor een `border` die écht altijd maar één pixel dik moet zijn, maar verder kan je beter gebruik maken van flexibele units.
+
+<details>
+  <summary>Zie wat voorbeelden</summary>
+
+### Goed
+````css
+button {
+	box-shadow: 0 .3em .6em 0 olivedrab;
+}
+article {
+	max-width: 40em;
+}
+@media (min-width: 40em) {
+	…
+}
+````
+
+### Niet goed
+````
+button {
+	box-shadow: 0 4px 8px 0 olivedrab;
+}
+article {
+	max-width: 640px;
+}
+@media (min-width: 640px) {
+	…
+}
+````
+
+### Niet goed
+````
+/* Gebruik overal flexibele units, ook in mediaqueries */
+article {
+	max-width: 40em;
+}
+@media (min-width: 640px) {
+	…
+}
 ````
 </details>
