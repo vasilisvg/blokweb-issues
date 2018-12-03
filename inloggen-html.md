@@ -1,5 +1,7 @@
 # De HTML van de inlog- en accountformulieren
 
+Met formulieren kan je data uitwisselen tussen de gebruiker en de server. Zonder formulieren geenkan je niet shoppen, is er geen Moodle, en bestond er geen Github.
+
 Deze issues zien we vaak. Wellicht heb jij ze ook?
 
 ## Labels zitten niet gekoppeld aan inputs
