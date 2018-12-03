@@ -61,3 +61,35 @@ In een `form` gebruik je geen sections met heading zoals `h2` en `h3`, maar `<fi
 </form>
 ````
 </details>
+
+## Een fieldset staat in een formulier, niet andersom
+
+Soms zien we een `fieldset` die om een `form` heen staat. Een `fieldset` is een sectie van een `form`, en dus moeten die er in staan.
+
+<details>
+  <summary>Zie wat voorbeelden</summary>
+
+### Goed
+````html
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Formulier</legend>
+    <label>Login naam:<input type="text"></label>
+    <label>Paswoord:<input type="password"></label>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+````
+
+### Niet goed
+````
+<fieldset>
+  <legend>Formulier</legend>
+  <form action="/action_page.php">
+    <label>Login naam:<input type="text"></label>
+    <label>Paswoord:<input type="password"></label>
+    <input type="submit" value="Submit">
+  </form>
+</fieldset>
+````
+</details>
