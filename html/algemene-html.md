@@ -24,3 +24,27 @@ Elk element kan een `lang` attribuut krijgen. Hierdoor weten zoekmachnies en scr
 	<title>Allemaal prachtige verhalen</title>
 ````
 </details>
+
+## Kapitalen in je HTML
+
+Soms wil je een kopje helemaal in kapitalen zetten. Dit kan je het beste in CSS doen, dan kan je het later eventueel nog aanpassen.
+
+<details>
+  <summary>Zie wat voorbeelden</summary>
+
+### Goed
+````html
+<h2>Alle 99 verhalen</h2>
+````
+
+````css 
+h2 {
+	text-transform: uppercase;
+}
+````
+
+### Liever niet
+````
+<h2>ALLE 99 VERHALEN</h2>
+````
+</details>
