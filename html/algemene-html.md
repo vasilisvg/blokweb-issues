@@ -68,7 +68,7 @@ Natuurlijk kopieer je een `article` op de overzichtspagina als die af is. Dan he
 </article>
 ````
 
-### Nuttloos
+### Nutteloos
 ````
 <article>
 	<h2>Moe</h2>
