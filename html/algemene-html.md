@@ -133,4 +133,4 @@ Er bestaat een `<center>` tag; gebruik die maar niet. Het is veel handiger om da
 
 ## Sectionitis
 
-Sommige studenten gaan, als ze horen dat ze zo min mogelijk *divs* moeten gebruiken, overal een `section` van maken. Als je heel veel sections gebruikt, dan heb je waarschijnlijk last van sectionitis. Dit is te verhelpen door je te veriepen in de verschillende elementen die je voor *sectioning* kunt gebruiken.
+Sommige studenten gaan, als ze horen dat ze zo min mogelijk *divs* moeten gebruiken, overal een `section` van maken. Als je heel veel sections gebruikt, dan heb je waarschijnlijk last van sectionitis. Dit is te verhelpen door je te verdiepen in de verschillende elementen die je voor *sectioning* kunt gebruiken.
