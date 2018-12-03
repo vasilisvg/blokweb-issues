@@ -84,3 +84,41 @@ Natuurlijk kopieer je een `article` op de overzichtspagina als die af is. Dan he
 </article>
 ````
 </details>
+
+## Nette code
+
+Zorg er voor dat je code netjes gestructureerd is. Zorg er voor dat de inspringing klopt. Sommige plugins in code editors zijn hier heel slecht in. Het is beter om dit gewoon even met de hand te doen. Dan loop je je code nog eens na. Altijd een goed idee.
+
+<details>
+  <summary>Voorbeelden</summary>
+
+### Goed
+````html
+<article>
+	<h2>Moe</h2>
+	<img src="moe.png" alt="Prachtig plaatje van iemand die moe is">
+	<footer>
+		<ul>
+			<li><a href="">Copyright</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</footer>
+</article>
+````
+
+### Onduidelijk
+````
+	<article>
+<h2>Moe</h2>
+<img src="moe.png" alt="Prachtig plaatje van iemand die moe is">
+		<footer>
+<ul>
+			<li>
+<a href="">Copyright</a></li>
+				<li>
+			<a href="">Contact</a></li>
+				</ul>
+			</footer>
+				</article>
+````
+</details>
