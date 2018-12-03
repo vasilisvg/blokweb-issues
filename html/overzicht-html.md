@@ -135,10 +135,10 @@ Ja, elke article kan een `<footer>` hebben. Een footer hoeft niet alleen onderaa
 	<h3>Moe</h3>
 	<footer>
 		<ul>
-            <li>Geestig</li>
-            <li>13 zinnen</li>
-            <li>12.08/2016</li>
-        </ul>
+			<li>Geestig</li>
+			<li>13 zinnen</li>
+			<li>12.08/2016</li>
+		</ul>
 	</footer>
 </article>
 <!-- Hier is het duidelijk dat dit geen content is, maar metadata -->
@@ -149,10 +149,10 @@ Ja, elke article kan een `<footer>` hebben. Een footer hoeft niet alleen onderaa
 <article>
 	<h3>Moe</h3>
 	<ul>
-        <li>Geestig</li>
-        <li>13 zinnen</li>
-        <li>12.08/2016</li>
-    </ul>
+		<li>Geestig</li>
+		<li>13 zinnen</li>
+		<li>12.08/2016</li>
+	</ul>
 </article>
 <!-- Hier is het onduidelijk: is dit content, of metadata? -->
 ````
