@@ -130,3 +130,7 @@ Zorg er voor dat je code netjes gestructureerd is. Zorg er voor dat de inspringi
 ## Centreren doe je met CSS
 
 Er bestaat een `<center>` tag; gebruik die maar niet. Het is veel handiger om daar flexbox of CSS Grid voor te gebruiken.
+
+## Sectionitis
+
+Sommige studenten gaan, als ze horen dat ze zo min mogelijk *divs* moeten gebruiken, overal een `section` van maken. Als je heel veel sections gebruikt, dan heb je waarschijnlijk last van sectionitis. Dit is te verhelpen door je te veriepen in de verschillende elementen die je voor *sectioning* kunt gebruiken.
