@@ -2,6 +2,10 @@
 
 Dit zijn dingen die we vaker tegenkomen. Vaak kleine dingetjes, die er toch toe doen.
 
+## Code is niet gevalideerd
+
+Wanneer de syntax van je code niet goed is heeft het weinig zin om feedback te zoeken of hulp te vragen. Zorg eerst dat je je code valideert met een plugin in je editor of via de [W3C validator](http://validator.w3.org/).
+
 ## Language attribuut
 
 Elk element kan een `lang` attribuut krijgen. Hierdoor weten zoekmachnies en screen readers in wat voor taal het element is geschreven. Als je het `lang` attribuut op het `<html>` element zet dan geeft dat aan dat het hele document in een bepaalde taal staat. Zorg er voor dat dat klopt!
@@ -37,7 +41,7 @@ Soms wil je een kopje helemaal in kapitalen zetten. Dit kan je het beste in CSS 
 <h2>Alle 99 verhalen</h2>
 ````
 
-````css 
+````css
 h2 {
 	text-transform: uppercase;
 }
@@ -90,7 +94,7 @@ Natuurlijk kopieer je een `article` op de overzichtspagina als die af is. Dan he
 Zorg er voor dat je code netjes gestructureerd is. Zorg er voor dat de inspringing klopt. Sommige plugins in code editors zijn hier heel slecht in. Het is beter om dit gewoon even met de hand te doen. Dan loop je je code nog eens na. Altijd een goed idee.
 
 <details>
-  <summary>Voorbeelden</summary>
+  <summary>Zie wat voorbeelden</summary>
 
 ### Lekker overzichtelijk
 ````html
@@ -120,5 +124,35 @@ Zorg er voor dat je code netjes gestructureerd is. Zorg er voor dat de inspringi
 				</ul>
 			</footer>
 				</article>
+````
+</details>
+
+
+## Niet elke knop is een button
+
+Kies je elementen op basis van wat het doet, en niet op hoe iets eruit ziet. Een `<a>` is voor links binnen de pagina of website, een `<button>` voor interactie / javascript. Een link naar een verhaal is dus geen `button`.
+
+<details>
+  <summary>Zie wat voorbeelden</summary>
+### Goed
+````
+<article>
+  <h2>Moe</h2>
+  <a href="verhaal.html" class="button">Lees meer</a>
+</article>
+````
+### Niet Goed
+````
+<article>
+  <h2>Moe</h2>
+  <a href="verhaal.html"><button>Lees meer</button></a>
+</article>
+````
+### Ook niet
+````
+<article>
+  <h2>Moe</h2>
+  <button onclick="document.location.href='verhaal.html'">Lees meer</button>
+</article>
 ````
 </details>
