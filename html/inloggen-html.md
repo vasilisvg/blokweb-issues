@@ -1,4 +1,4 @@
-# De HTML van de inlog- en accountformulieren
+# De HTML van de formulieren
 
 Met formulieren kan je data uitwisselen tussen de gebruiker en de server. Zonder formulieren kan je niet shoppen, is er geen Moodle, en bestond er geen Github.
 
