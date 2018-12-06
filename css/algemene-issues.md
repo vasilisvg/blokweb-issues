@@ -97,3 +97,42 @@ article {
 
 Flexbox en grid zijn bedacht om alle mogelijke layout mee te kunnen maken. Ze zijn veel krachtiger dan oude de *hacks* die we vroeger moesten gebruiken,  zoals `float` en `display: inline-block`. Gebruik nooit hacks. Gebruik flexbox en grid.
 
+## Flexbox op een <nav>
+
+Let er op dat `flexbox` niet overerft. Flexbox is van invloed op de *directe kinderen*. Dus als je list-items in een `ul` in een `nav` wil laten flexen, dan werkt het niet als je `display:flex` op de `nav` zet.
+
+<details>
+  <summary>Zie wat voorbeelden</summary>
+
+### Goed
+````html
+<nav>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+	</ul>
+</nav>
+````
+
+````css
+nav ul {
+	display: flex
+}
+````
+
+### Dit werkt dus niet
+````
+<nav>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+	</ul>
+</nav>
+````
+
+````
+nav {
+	display: flex
+}
+````
+</details>
