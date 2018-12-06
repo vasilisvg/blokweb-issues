@@ -109,7 +109,7 @@ Soms zien we een `fieldset` die om een `form` heen staat. Een `fieldset` is een 
 
 ## Elk formulier heeft een submit button en een action
 
-Als je een `<form>` een action met een url geeft dan ge je naar die url zodra je op de submit button klikt. Dit is natuurlijk nodig om echte data in een echt formulier te versturen, maar het is ook heel handig als je wil prototypen.
+Als je een `<form>` een action met een url geeft dan ga je naar die url zodra je op de submit button klikt. Dit is natuurlijk nodig om echte data in een echt formulier te versturen, maar het is ook heel handig als je wil prototypen.
 
 <details>
   <summary>Voorbeeld</summary>
@@ -126,7 +126,7 @@ Als je een `<form>` een action met een url geeft dan ge je naar die url zodra je
 ````
 <form>
   <label>Email:<input type="email"></label>
-  <a href="overzichtspagina.html>Submit</a>
+  <a href="overzichtspagina.html">Submit</a>
 </form>
 ````
 </details>
