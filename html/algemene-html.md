@@ -152,11 +152,11 @@ Gebruik geen `<br>`. Als je dingen onder elkaar wil zetten, zoals formuliereleme
 ````
 
 ````css
-/* of */
 label {
   display: flex;
   flex-direction: column;
 }
+/* of */
 input {
 	display: block;
 }
