@@ -144,6 +144,7 @@ Gebruik geen `<br>`. Als je dingen onder elkaar wil zetten, zoals formuliereleme
 
 ### Formulierelementen onder elkaar zetten
 ````html
+<!-- Bijvoorbeeld -->
 <form>
 	<label>Name <input name="naam"></label>
 	<label>Password <input name="naam"></label>
