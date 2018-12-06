@@ -134,3 +134,42 @@ Er bestaat een `<center>` tag; gebruik die maar niet. Het is veel handiger om da
 ## Sectionitis
 
 Sommige studenten gaan, als ze horen dat ze zo min mogelijk *divs* moeten gebruiken, overal een `section` van maken. Als je heel veel sections gebruikt, dan heb je waarschijnlijk last van sectionitis. Dit is te verhelpen door je te verdiepen in de verschillende elementen die je voor *sectioning* kunt gebruiken.
+
+## Brrr
+
+Gebruik geen `<br>`. Als je dingen onder elkaar wil zetten, zoals formulierelementen, dan gebruik je daar gewoon CSS voor. Soms kan dat met een eenvoudige `display: block` maar soms kan je beter gebruik maken van echte layout modules als `flexbox`
+
+<details>
+  <summary>Voorbeelden</summary>
+
+### Formulierelementen onder elkaar zetten
+````html
+<form>
+	<label>Name <input name="naam"></label>
+	<label>Password <input name="naam"></label>
+	<input type="submit" value="Submit">
+</form>
+````
+
+````css
+/* of */
+label {
+  display: flex;
+  flex-direction: column;
+}
+input {
+	display: block;
+}
+/* of */
+…
+````
+
+### Dus niet zo
+````
+<form>
+	<label>Name<br> <input name="naam"></label><br>
+	<label>Password<br> <input name="naam"></label><br>
+	<input type="submit" value="Submit">
+</form>
+````
+</details>
