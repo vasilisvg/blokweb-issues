@@ -10,6 +10,7 @@ Als je je `<script>` in de `<head>` zet dan werkt de `querySelector` niet vanzel
   <summary>Een paar voorbeelden</summary>
 
 ### Werkt wel
+In je HTML
 ````html
 	<button>Klik mij</button>
 	…
@@ -17,12 +18,14 @@ Als je je `<script>` in de `<head>` zet dan werkt de `querySelector` niet vanzel
 </body>
 ````
 
+In je js
 ````js
 document.querySelector('button');
 ````
 
 ### Werkt niet
 
+In je HTML
 ````
 <head>
 	<script src="js.js"></script>
@@ -31,6 +34,7 @@ document.querySelector('button');
 	<button>Klik mij</button>
 ````
 
+In je js
 ````js
 document.querySelector('button');
 // De button bestaat nog niet als het script wordt aangeroepen
